@@ -1,0 +1,82 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto Mono", monospace;
+    background-color: #F5E6D3;
+}
+
+button {
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    background-color: black;
+    height: 50px;
+    width: 125px;
+    border: black;
+    box-shadow: rgba(0, 0, 0, 0.15) 4px 4px 4px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.letra{
+    height: 75px;
+    width: 75px;
+}
+
+.linha{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+h1{
+    font-weight: 700;
+}
+
+h2{
+    font-weight: 500;
+}
+
+.photo {
+    width: auto;
+    background-color: white;
+    padding: 10px 10px 25px 10px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+}
+
+.photo img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.destaque {
+    color: #910d0d;
+}
