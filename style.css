@@ -71,12 +71,26 @@ h2{
 }
 
 .photo img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  background-color: white;
 }
 
 .destaque {
     color: #910d0d;
+}
+
+.photo2 {
+    width: auto;
+    background-color: white;
+    padding: 10px 10px 25px 10px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+}
+
+.photo2 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
 }
